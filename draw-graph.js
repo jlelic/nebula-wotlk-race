@@ -53,7 +53,6 @@ const loadedLibrary = () => {
                 text.push(`${level} after ${secondsToString(timeDiff)}`)
             }
         }
-        console.log(name)
         let trace = {
             unitKey: name,
             x,
@@ -75,7 +74,7 @@ const loadedLibrary = () => {
         title: `Nebula WotLK Race to 80`,
         titlefont: { color: "#fff" },
         xaxis: {
-            range: ['2022-09-26', '2022-10-05T23:00'],
+            range: ['2022-09-26T16:00', '2022-10-07T7:00'],
             type: 'date'
         },
         yaxis: {
